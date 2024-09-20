@@ -1,0 +1,1072 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Loom</title>
+    <link rel="stylesheet" href="./fonts/stylesheet.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8.4.5/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        _
+                    }
+                },
+                fontFamily: {
+                    'roboto-mono': ['Roboto Mono', 'sans-serif'],
+                },
+
+                container: {
+                    center: true,
+                    padding: '7.5px',
+                    margin: '0 auto',
+
+                    screens: {
+                        sm: '576px',
+                        md: '768px',
+                        lg: ' 992px',
+                        xl: '1200px',
+                        xxl: '1400px',
+                    },
+                },
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <header class="w-full absolute top-[40px] md:flex justify-center items-center px-[15px]">
+        <img loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/a5cd46f94aea274cca6ca908af11ba8e2a6055a19ebbb65bcb241f2055049207?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+            class="object-contain self-stretch my-auto aspect-[2.6] w-[52px] md:hidden" alt="Company logo" />
+        <nav
+            class="md:flex hidden flex-wrapv w-max gap-8 justify-center items-center p-[15px] pl-6 rounded-sm border border-solid backdrop-blur-[20px] bg-orange-200 bg-opacity-10 border-orange-200 border-opacity-10 max-md:pl-5">
+            <div class="flex gap-4 items-center self-stretch my-auto w-[52px]">
+                <img loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/a5cd46f94aea274cca6ca908af11ba8e2a6055a19ebbb65bcb241f2055049207?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                    class="object-contain self-stretch my-auto aspect-[2.6] w-[52px]" alt="Company logo" />
+            </div>
+            <ul
+                class="flex gap-4 items-center self-stretch my-auto text-sm tracking-widest leading-relaxed uppercase max-md:max-w-full">
+                <li class="flex gap-5 items-start self-stretch my-auto text-orange-200 ">
+                    <a href="#services">Services</a>
+                    <a href="#work">Work</a>
+                    <a href="#about">About</a>
+                    <a href="#blog">Blog</a>
+                    <div class="flex items-center">
+                        <a href="#pages" class="self-stretch my-auto">Pages</a>
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/b99d029c4844c0baa42f50b15915df20150b037b3aa88056d92cecd871193d17?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                            class="object-contain shrink-0 self-stretch my-auto aspect-square w-[18px]" alt="" />
+                    </div>
+                </li>
+                <li>
+                    <a href="#contact"
+                        class="gap-2 self-stretch px-4 py-2.5 my-auto bg-orange-200 rounded-sm text-stone-950">
+                        Let's talk
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="flex flex-col justify-center">
+        <div class="flex overflow-hidden flex-col items-center px-20 pt-3.5 w-full max-md:px-5 max-md:max-w-full">
+            <div class="flex flex-col max-w-full w-[1015px]">
+                <img loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/6a15c4bd64a7fcc54884955bb062e62052e4c6ddd1429e410e8f905fd3fef1fd?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                    alt="Web Designer and Developer illustration"
+                    class="object-contain ml-10 max-w-full bg-blend-lighten aspect-[1.14] w-[880px]">
+                <div class="flex flex-col items-center max-md:max-w-full">
+                    <div class="flex flex-col items-center font-light text-center max-md:max-w-full">
+                        <h1
+                            class="text-9xl italic tracking-tighter text-orange-200 leading-[137px] max-md:max-w-full max-md:text-4xl max-md:leading-10">
+                            <span class="md:leading-[160px] md:text-[160px] text-[40px] leading-[40px] ">Web
+                                Designer</span>
+                            <br>
+                            <span class="italic md:leading-[160px] md:text-[160px] text-[40px] leading-[40px] ">&
+                                Developer</span>
+                        </h1>
+                        <p
+                            class="mt-4 text-lg md:text-2xl leading-6 sm:leading-9 text-orange-200 text-opacity-60 w-[600px] max-md:max-w-full">
+                            Premium web design, development, and SEO services to help your business stand out.
+                        </p>
+                    </div>
+                    <div class="flex gap-4 items-center mt-12 max-md:mt-10">
+                        <button
+                            class="flex self-stretch my-auto border border-solid backdrop-blur-[15px] bg-orange-200 bg-opacity-10 border-orange-200 border-opacity-10 min-h-[46px] rounded-[500px] w-[46px]"
+                            aria-label="Action button"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="px-16 max-md:px-5 pt-32  max-md:pt-5 flex justify-center overflow-hidden">
+        <div class="w-[1200px]">
+            <div class="swiper swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/1568cafa6bdaca6d6ce1a01289c52d3cec9571828c336fe958dc5729d8dfdfdf?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                            class="object-contain shrink-0 self-stretch my-auto aspect-[3.95] w-[99px]"
+                            alt="Company logo 1" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/fcbb6144ab8efbfce3820a140a2a0e7b804c04a97e96b4527d8ac9dfa3cabb8d?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                            class="object-contain shrink-0 self-stretch my-auto  aspect-[4.67]" alt="Company logo 2" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/d1a4663195601e56f8d117c8abfe796409b2a6bc2ae7999016a2412bc1eb9666?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                            class="object-contain shrink-0 self-stretch my-auto aspect-[1.52] h-[70px]"
+                            alt="Company logo 3" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/29f842be4d751567108392b883f2ed22018027a2b3e387253eb65859da4ca6d7?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                            class="object-contain shrink-0 self-stretch my-auto aspect-[2.6] h-[70px]"
+                            alt="Company logo 4" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/6f46cd75a427e20281f428397b91a4b2d65f58dd93a3ff828792800bfbf9cbfe?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                            class="object-contain shrink-0 self-stretch my-auto aspect-[8] h-[70px]"
+                            alt="Company logo 5" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/e38d483f8568b5cf0bb3dcc95cb168bd0503f81b3fec7faed880e8466bc7b287?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                            class="object-contain shrink-0 self-stretch my-auto aspect-[1.17] h-[70px]"
+                            alt="Company logo 6" />
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="flex flex-col items-center px-16 pt-20 max-md:px-5">
+        <div class="flex flex-col max-w-full w-[1400px] gap-y-[100px]">
+            <div class="flex flex-wrap gap-8 items-start w-full min-h-[314px] max-md:max-w-full">
+                <article
+                    class="flex flex-col flex-1 shrink justify-center p-12 rounded-sm border border-solid basis-0 bg-orange-200 bg-opacity-10 border-orange-200 border-opacity-10 min-w-[240px] max-md:px-5 max-md:max-w-full">
+                    <header class="flex flex-col w-full">
+                        <h2 class="flex flex-col w-full uppercase">
+                            <span
+                                class="text-sm tracking-widest leading-relaxed text-orange-200 text-opacity-60">01</span>
+                            <span class="mt-1 text-2xl font-light tracking-wider leading-tight text-orange-200">Web
+                                design</span>
+                        </h2>
+                        <p class="mt-2 text-base leading-7 text-orange-200 text-opacity-60">Visually stunning web
+                            designs that captivate your audience by blending your brand voice and customer needs.</p>
+                    </header>
+                    <footer class="flex gap-3 items-center self-start mt-8">
+                        <div
+                            class="flex gap-8 justify-center items-center self-stretch px-2 my-auto w-8 h-8 border border-solid backdrop-blur-[15px] bg-orange-200 bg-opacity-10 border-orange-200 border-opacity-10 min-h-[32px] rounded-[500px]">
+                            <img loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/3026c64982f2c6b5a5bd907ec71c0c4bd45c0cf9ef666a86452d07267f09ae18?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                                class="object-contain self-stretch my-auto aspect-square w-[18px]" alt="" />
+                        </div>
+                        <span
+                            class="self-stretch my-auto text-sm tracking-widest leading-relaxed text-orange-200 uppercase">About
+                            Webdesign</span>
+                    </footer>
+                </article>
+                <article
+                    class="flex flex-col flex-1 shrink justify-center p-12 rounded-sm border border-solid basis-0 bg-orange-200 bg-opacity-10 border-orange-200 border-opacity-10 min-w-[240px] max-md:px-5 max-md:max-w-full">
+                    <header class="flex flex-col w-full">
+                        <h2 class="flex flex-col w-full uppercase whitespace-nowrap">
+                            <span
+                                class="text-sm tracking-widest leading-relaxed text-orange-200 text-opacity-60">02</span>
+                            <span
+                                class="mt-1 text-2xl font-light tracking-wider leading-tight text-orange-200">Development</span>
+                        </h2>
+                        <p class="mt-2 text-base leading-7 text-orange-200 text-opacity-60">Get custom web development
+                            solutions that are tailored to your specifications, designed to deliver
+                            experience.</p>
+                    </header>
+                    <footer class="flex gap-3 items-center self-start mt-8">
+                        <div
+                            class="flex gap-8 justify-center items-center self-stretch px-2 my-auto w-8 h-8 border border-solid backdrop-blur-[15px] bg-orange-200 bg-opacity-10 border-orange-200 border-opacity-10 min-h-[32px] rounded-[500px]">
+                            <img loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/373e0c9f9408a0ad7e9ef43b6036e34c3e2a05a040eebcdff017983de53bd870?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                                class="object-contain self-stretch my-auto aspect-square w-[18px]" alt="" />
+                        </div>
+                        <span
+                            class="self-stretch my-auto text-sm tracking-widest leading-relaxed text-orange-200 uppercase">About
+                            Webflow</span>
+                    </footer>
+                </article>
+                <article
+                    class="flex flex-col flex-1 shrink justify-center p-12 rounded-sm border border-solid basis-0 bg-orange-200 bg-opacity-10 border-orange-200 border-opacity-10 min-w-[240px] max-md:px-5 max-md:max-w-full">
+                    <header class="flex flex-col w-full">
+                        <h2 class="flex flex-col w-full uppercase">
+                            <span
+                                class="text-sm tracking-widest leading-relaxed text-orange-200 text-opacity-60">03</span>
+                            <span class="mt-1 text-2xl font-light tracking-wider leading-tight text-orange-200">Content
+                                & Seo</span>
+                        </h2>
+                        <p class="mt-2 text-base leading-7 text-orange-200 text-opacity-60">Proven SEO strategies that
+                            enhance your online performance, bringing you to the forefront of organic search results.
+                        </p>
+                    </header>
+                    <footer class="flex gap-3 items-center self-start mt-8">
+                        <div
+                            class="flex gap-8 justify-center items-center self-stretch px-2 my-auto w-8 h-8 border border-solid backdrop-blur-[15px] bg-orange-200 bg-opacity-10 border-orange-200 border-opacity-10 min-h-[32px] rounded-[500px]">
+                            <img loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/e5747cad8bb2b3709f634e29e22bb28c63578acb48a347bec204ec416ae5c1c6?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                                class="object-contain self-stretch my-auto aspect-square w-[18px]" alt="" />
+                        </div>
+                        <span
+                            class="self-stretch my-auto text-sm tracking-widest leading-relaxed text-orange-200 uppercase">About
+                            SEO</span>
+                    </footer>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="flex gap-10 justify-center items-start px-16 pt-40 max-md:px-5 max-md:pt-24">
+        <div class="flex flex-col min-w-[240px] w-[1400px]">
+            <div
+                class="flex flex-wrap gap-10 justify-between items-center px-8 pb-8 w-full rounded-2xl max-md:px-5 max-md:max-w-full">
+                <h2
+                    class="self-stretch my-auto text-5xl italic font-light leading-none text-orange-200 max-md:text-4xl">
+                    <span class="text-6xl leading-[70px]">Selected</span>
+                    <span class="text-6xl italic leading-[70px]">Work</span>
+                </h2>
+                <nav class="flex gap-3 items-center self-stretch my-auto">
+                    <a href="#"
+                        class="flex gap-8 justify-center items-center self-stretch px-2 my-auto w-8 h-8 border border-solid backdrop-blur-[15px] bg-orange-200 bg-opacity-10 border-orange-200 border-opacity-10 min-h-[32px] rounded-[500px]"
+                        aria-label="See all works">
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/1ed13782604baabdd5ca383985b0dd73fc8214fc89bd3e02fea4c68e63c621c9?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                            alt="" class="object-contain self-stretch my-auto aspect-square w-[18px]" />
+                    </a>
+                    <span
+                        class="self-stretch my-auto text-sm tracking-widest leading-relaxed text-orange-200 uppercase">See
+                        all</span>
+                </nav>
+            </div>
+            <div class="flex flex-col self-center w-full max-w-[1400px] max-md:max-w-full">
+                <div class="flex flex-wrap gap-8 items-start w-full">
+                    <article class="flex flex-col flex-1 shrink rounded-sm basis-0 min-w-[240px] max-md:max-w-full">
+                        <div
+                            class="flex overflow-hidden flex-col w-full rounded-sm border border-solid border-orange-200 border-opacity-10 max-md:max-w-full">
+                            <div class="flex relative flex-col w-full min-h-[513px] max-md:max-w-full">
+                                <img loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/8a168da80529e5034e3cdcdd98976cf1a22543377654b4fe811c4090acd1c662?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                                    alt="Space project background" class="object-cover absolute inset-0 size-full" />
+                                <div
+                                    class="flex relative flex-col px-8 pt-60 pb-8 w-full min-h-[513px] max-md:px-5 max-md:pt-24 max-md:max-w-full">
+                                    <img loading="lazy"
+                                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/84ff0d8c355a89361015d562a0f163bb2d17cc5b8f540c2c8cd62cc9387fca04?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                                        alt="" class="object-cover absolute inset-0 size-full" />
+                                    <button
+                                        class="flex relative flex-col justify-center items-center self-center px-3 border border-solid backdrop-blur-[15px] bg-orange-200 bg-opacity-10 border-orange-200 border-opacity-10 h-[46px] min-h-[46px] rounded-[500px] w-[46px]"
+                                        aria-label="Play Space project video">
+                                        <img loading="lazy"
+                                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/a944867203acffeba1a1f48576ac83a62193cdc436a5734c52015d18cb793578?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                                            alt="" class="object-contain w-full aspect-square" />
+                                    </button>
+                                    <div
+                                        class="flex relative flex-wrap gap-10 justify-between items-center px-4 py-3 mt-36 text-orange-200 whitespace-nowrap rounded-sm border border-solid bg-white bg-opacity-10 border-white border-opacity-10 max-md:mt-10 max-md:max-w-full">
+                                        <h3
+                                            class="self-stretch my-auto text-2xl font-light tracking-wider leading-tight">
+                                            Space</h3>
+                                        <p
+                                            class="self-stretch my-auto text-sm tracking-widest leading-relaxed uppercase">
+                                            Webdesign</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article
+                        class="flex flex-col flex-1 shrink text-orange-200 whitespace-nowrap rounded-sm basis-0 min-w-[240px] max-md:max-w-full">
+                        <div
+                            class="flex overflow-hidden flex-col w-full rounded-sm border border-solid border-orange-200 border-opacity-10 max-md:max-w-full">
+                            <div class="flex relative flex-col w-full min-h-[513px] max-md:max-w-full">
+                                <img loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/2838ca18610bde08a9e4e2f30595df22fd31e9805200f08357a06c71b8d17f68?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                                    alt="Nova project background" class="object-cover absolute inset-0 size-full" />
+                                <div
+                                    class="flex relative flex-col px-8 pt-96 pb-8 w-full min-h-[513px] max-md:px-5 max-md:pt-24 max-md:max-w-full">
+                                    <img loading="lazy"
+                                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/84ff0d8c355a89361015d562a0f163bb2d17cc5b8f540c2c8cd62cc9387fca04?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                                        alt="" class="object-cover absolute inset-0 size-full" />
+                                    <div
+                                        class="flex relative flex-wrap gap-10 justify-between items-center px-4 py-3 rounded-sm border border-solid bg-white bg-opacity-10 border-white border-opacity-10 max-md:max-w-full">
+                                        <h3
+                                            class="self-stretch my-auto text-2xl font-light tracking-wider leading-tight">
+                                            Nova</h3>
+                                        <p
+                                            class="self-stretch my-auto text-sm tracking-widest leading-relaxed uppercase">
+                                            Webdesign</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="flex flex-wrap gap-8 items-start mt-8 w-full text-orange-200 whitespace-nowrap">
+                    <article class="flex flex-col flex-1 shrink rounded-sm basis-0 min-w-[240px] max-md:max-w-full">
+                        <div
+                            class="flex overflow-hidden flex-col w-full rounded-sm border border-solid border-orange-200 border-opacity-10 max-md:max-w-full">
+                            <div class="flex relative flex-col w-full min-h-[513px] max-md:max-w-full">
+                                <img loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/3651bdc834e5825c18c38515de2047d57673ac0e8288a0701dfff343e5825144?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                                    alt="Sonic project background" class="object-cover absolute inset-0 size-full" />
+                                <div
+                                    class="flex relative flex-col px-8 pt-96 pb-8 w-full min-h-[513px] max-md:px-5 max-md:pt-24 max-md:max-w-full">
+                                    <img loading="lazy"
+                                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/84ff0d8c355a89361015d562a0f163bb2d17cc5b8f540c2c8cd62cc9387fca04?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                                        alt="" class="object-cover absolute inset-0 size-full" />
+                                    <div
+                                        class="flex relative flex-wrap gap-10 justify-between items-center px-4 py-3 rounded-sm border border-solid bg-white bg-opacity-10 border-white border-opacity-10 max-md:max-w-full">
+                                        <h3
+                                            class="self-stretch my-auto text-2xl font-light tracking-wider leading-tight">
+                                            Sonic</h3>
+                                        <p
+                                            class="self-stretch my-auto text-sm tracking-widest leading-relaxed uppercase">
+                                            Webdesign</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="flex flex-col flex-1 shrink rounded-sm basis-0 min-w-[240px] max-md:max-w-full">
+                        <div
+                            class="flex overflow-hidden flex-col w-full rounded-sm border border-solid border-orange-200 border-opacity-10 max-md:max-w-full">
+                            <div class="flex relative flex-col w-full min-h-[513px] max-md:max-w-full">
+                                <img loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/3d7e186997ee9eb58b4be8a3c9f608546ce00f445f9cdc2dedd49b0f0b295e95?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                                    alt="Solar project background" class="object-cover absolute inset-0 size-full" />
+                                <div
+                                    class="flex relative flex-col px-8 pt-96 pb-8 w-full min-h-[513px] max-md:px-5 max-md:pt-24 max-md:max-w-full">
+                                    <img loading="lazy"
+                                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/84ff0d8c355a89361015d562a0f163bb2d17cc5b8f540c2c8cd62cc9387fca04?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                                        alt="" class="object-cover absolute inset-0 size-full" />
+                                    <div
+                                        class="flex relative flex-wrap gap-10 justify-between items-center px-4 py-3 rounded-sm border border-solid bg-white bg-opacity-10 border-white border-opacity-10 max-md:max-w-full">
+                                        <h3
+                                            class="self-stretch my-auto text-2xl font-light tracking-wider leading-tight">
+                                            Solar</h3>
+                                        <p
+                                            class="self-stretch my-auto text-sm tracking-widest leading-relaxed uppercase">
+                                            Webdesign</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="flex flex-col items-center px-16 pt-40 max-md:px-5 max-md:pt-24">
+        <div class="flex flex-col items-center max-md:max-w-full">
+            <div class="flex flex-col items-center text-orange-200 max-md:max-w-full">
+                <h2 class="text-sm tracking-widest leading-relaxed uppercase">The Process</h2>
+                <h1
+                    class="mt-4 text-9xl italic font-light tracking-tighter text-center leading-[115px] max-md:max-w-full max-md:text-4xl max-md:leading-10">
+                    <span class="leading-[128px]">Your Website</span>
+                    <br />
+                    <span class="italic leading-[128px]">in 5 steps</span>
+                </h1>
+                <p
+                    class="mt-4 text-xl leading-9 text-center text-orange-200 text-opacity-60 w-[500px] max-md:max-w-full">
+                    Our process ensures that we create a website tailored to your business needs.
+                </p>
+            </div>
+            <div
+                class="flex flex-col justify-center items-center px-3 mt-12 border border-solid backdrop-blur-[15px] bg-orange-200 bg-opacity-10 border-orange-200 border-opacity-10 h-[46px] min-h-[46px] rounded-[500px] w-[46px] max-md:mt-10">
+                <img loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/aa02f203a30ab370ebb97eee03e6ce17e5f867cf24a6b364315c5120f95ffcbe?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                    class="object-contain w-full aspect-square" alt="" />
+            </div>
+        </div>
+        <div class="flex mt-4 w-px bg-orange-200 bg-opacity-10 min-h-[96px]" aria-hidden="true"></div>
+    </section>
+
+    <section class="flex flex-col items-center px-16 max-md:px-5">
+        <div class="flex flex-col max-w-full w-[1400px]">
+            <div class="flex flex-wrap gap-10 w-full max-md:max-w-full">
+                <div class="flex flex-1 shrink basis-24 h-[435px] min-w-[240px] w-[600px] max-md:hidden"></div>
+                <div
+                    class="flex flex-col items-center w-10 text-sm tracking-widest leading-relaxed text-center text-orange-200 uppercase whitespace-nowrap max-md:hidden">
+                    <div class="flex flex-1 w-px bg-orange-200 bg-opacity-10 min-h-[182px]"></div>
+                    <div
+                        class="px-3 mt-4 w-10 h-10 border border-solid backdrop-blur-[15px] bg-orange-200 bg-opacity-10 border-orange-200 border-opacity-10 min-h-[40px] rounded-[500px] flex items-center">
+                        01
+                    </div>
+                    <div class="flex flex-1 mt-4 w-px bg-orange-200 bg-opacity-10 min-h-[181px]"></div>
+                </div>
+                <article
+                    class="flex relative flex-col flex-1 shrink self-start p-12 rounded-sm border border-solid backdrop-blur-[15px] basis-0 bg-orange-200 bg-opacity-10 border-orange-200 border-opacity-10 min-w-[240px] max-md:px-5 max-md:max-w-full">
+                    <div class="flex z-0 flex-col w-full max-md:max-w-full">
+                        <header class="flex flex-col max-w-full uppercase w-[520px]">
+                            <h3 class="text-sm tracking-widest leading-relaxed text-orange-200 text-opacity-60">
+                                Do we Match?
+                            </h3>
+                            <h2
+                                class="mt-1 text-2xl font-light tracking-wider leading-tight text-orange-200 max-md:max-w-full">
+                                Discovery Call
+                            </h2>
+                        </header>
+                        <p class="mt-4 text-base leading-7 text-orange-200 text-opacity-60 max-md:max-w-full">
+                            Before we start, we determine if and how I can help you. What are your requirements for your
+                            new website? Why do you need a new website? What goals do you have, and what problems can we
+                            solve with a new website?
+                        </p>
+                    </div>
+                    <ul
+                        class="flex z-0 flex-col items-start mt-8 w-full text-base leading-7 text-orange-200 max-md:max-w-full">
+                        <li class="gap-4 self-stretch">We get to know each other better</li>
+                        <li class="gap-4 self-stretch mt-4">Determine how I can best assist you</li>
+                        <li class="gap-4 self-stretch mt-4 w-full max-md:max-w-full">
+                            Understand the goals you have for your website
+                        </li>
+                    </ul>
+                    <div
+                        class="overflow-hidden absolute top-5 right-5 self-start p-2 text-xs leading-tight text-orange-200 uppercase rounded-sm border border-solid backdrop-blur-[15px] bg-orange-200 bg-opacity-10 border-orange-200 border-opacity-10">
+                        2 Hours
+                    </div>
+                </article>
+            </div>
+            <div class="flex flex-wrap gap-10 w-full max-md:max-w-full mb-[40px] md:mb-0">
+                <article
+                    class="flex relative flex-col flex-1 shrink self-start p-12 rounded-sm border border-solid backdrop-blur-[15px] basis-0 bg-orange-200 bg-opacity-10 border-orange-200 border-opacity-10 min-w-[240px] max-md:px-5 max-md:max-w-full">
+                    <div class="flex z-0 flex-col w-full max-md:max-w-full">
+                        <div class="flex flex-col max-w-full uppercase w-[520px]">
+                            <h3 class="text-sm tracking-widest leading-relaxed text-orange-200 text-opacity-60">
+                                lorem ipsum
+                            </h3>
+                            <h2
+                                class="mt-1 text-2xl font-light tracking-wider leading-tight text-orange-200 max-md:max-w-full">
+                                Concept & Strategy
+                            </h2>
+                        </div>
+                        <p class="mt-4 text-base leading-7 text-orange-200 text-opacity-60 max-md:max-w-full">
+                            Together, we develop a strategy that successfully combines your goals with the needs of your
+                            target audience. Based on this concept, I create the first wireframes and an interactive
+                            prototype. This provides us with a very good impression of the website and the user
+                            interface.
+                        </p>
+                    </div>
+                    <ul
+                        class="flex z-0 flex-col items-start mt-8 w-full text-base leading-7 text-orange-200 max-md:max-w-full">
+                        <li class="gap-4 self-stretch">UX Design</li>
+                        <li class="gap-4 self-stretch mt-4 whitespace-nowrap">Wireframes</li>
+                        <li class="gap-4 self-stretch mt-4 w-full max-md:max-w-full">
+                            Interactive Prototype
+                        </li>
+                    </ul>
+                    <div
+                        class="overflow-hidden absolute top-5 right-5 self-start p-2 text-xs leading-tight text-orange-200 uppercase rounded-sm border border-solid backdrop-blur-[15px] bg-orange-200 bg-opacity-10 border-orange-200 border-opacity-10">
+                        1 Week
+                    </div>
+                </article>
+                <div
+                    class="flex flex-col items-center w-10 text-sm tracking-widest leading-relaxed text-center text-orange-200 uppercase whitespace-nowrap max-md:hidden">
+                    <div class="flex flex-1 w-px bg-orange-200 bg-opacity-10 min-h-[196px]"></div>
+                    <div
+                        class="px-3 mt-4 w-10 h-10 border border-solid backdrop-blur-[15px] bg-orange-200 bg-opacity-10 border-orange-200 border-opacity-10 min-h-[40px] rounded-[500px] flex items-center">
+                        02
+                    </div>
+                    <div class="flex flex-1 mt-4 w-px bg-orange-200 bg-opacity-10 min-h-[196px]"></div>
+                </div>
+                <div class="flex flex-1 shrink basis-24 h-[464px] min-w-[240px] w-[600px] max-md:hidden"></div>
+            </div>
+            <div class="flex flex-wrap gap-10 w-full max-md:max-w-full mb-[40px] md:mb-0">
+                <div class="flex flex-1 shrink basis-24 h-[419px] min-w-[240px] w-[600px] max-md:hidden"></div>
+                <div
+                    class="flex flex-col items-center w-10 text-sm tracking-widest leading-relaxed text-center text-orange-200 uppercase whitespace-nowrap max-md:hidden">
+                    <div class="flex flex-1 w-px bg-orange-200 bg-opacity-10 min-h-[174px]"></div>
+                    <div
+                        class="px-3 mt-4 w-10 h-10 border border-solid backdrop-blur-[15px] bg-orange-200 bg-opacity-10 border-orange-200 border-opacity-10 min-h-[40px] rounded-[500px] flex items-center">
+                        03
+                    </div>
+                    <div class="flex flex-1 mt-4 w-px bg-orange-200 bg-opacity-10 min-h-[173px]"></div>
+                </div>
+                <article
+                    class="flex relative flex-col flex-1 shrink self-start p-12 rounded-sm border border-solid backdrop-blur-[15px] basis-0 bg-orange-200 bg-opacity-10 border-orange-200 border-opacity-10 min-w-[240px] max-md:px-5 max-md:max-w-full">
+                    <div class="flex z-0 flex-col w-full max-md:max-w-full">
+                        <header class="flex flex-col max-w-full uppercase w-[520px]">
+                            <h3 class="text-sm tracking-widest leading-relaxed text-orange-200 text-opacity-60">
+                                Some Magic
+                            </h3>
+                            <h2
+                                class="mt-1 text-2xl font-light tracking-wider leading-tight text-orange-200 max-md:max-w-full">
+                                Web Design
+                            </h2>
+                        </header>
+                        <p class="mt-4 text-base leading-7 text-orange-200 text-opacity-60 max-md:max-w-full">
+                            Now comes the magic. Based on the previously developed concept, I create a high-end screen
+                            design perfectly tailored to your brand. A web design that sets you apart from your
+                            competition, fits your target audience ideally, and provides an excellent user experience.
+                        </p>
+                    </div>
+                    <ul
+                        class="flex z-0 flex-col items-start mt-8 w-full text-base leading-7 text-orange-200 max-md:max-w-full">
+                        <li class="gap-4 self-stretch">High-end web design tailored to your brand</li>
+                        <li class="gap-4 self-stretch mt-4">Interactive prototype of the design</li>
+                    </ul>
+                    <div
+                        class="overflow-hidden absolute top-5 right-5 self-start p-2 text-xs leading-tight text-orange-200 uppercase rounded-sm border border-solid backdrop-blur-[15px] bg-orange-200 bg-opacity-10 border-orange-200 border-opacity-10">
+                        1 week
+                    </div>
+                </article>
+            </div>
+            <div class="flex flex-wrap gap-10 w-full max-md:max-w-full mb-[40px] md:mb-0">
+                <article
+                    class="flex relative flex-col flex-1 shrink self-start p-12 rounded-sm border border-solid backdrop-blur-[15px] basis-0 bg-orange-200 bg-opacity-10 border-orange-200 border-opacity-10 min-w-[240px] max-md:px-5 max-md:max-w-full">
+                    <div class="flex z-0 flex-col w-full max-md:max-w-full">
+                        <div class="flex flex-col max-w-full uppercase w-[520px]">
+                            <h3 class="text-sm tracking-widest leading-relaxed text-orange-200 text-opacity-60">
+                                More Magic
+                            </h3>
+                            <h2
+                                class="mt-1 text-2xl font-light tracking-wider leading-tight text-orange-200 max-md:max-w-full">
+                                Development
+                            </h2>
+                        </div>
+                        <p class="mt-4 text-base leading-7 text-orange-200 text-opacity-60 max-md:max-w-full">
+                            In this step, we breathe life into your new high-end design. You will receive a custom-built
+                            website using a modular web design system and CMS integration. Animations will add the
+                            necessary flair to your site and set you apart from the boring competition.
+                        </p>
+                    </div>
+                    <ul
+                        class="flex z-0 flex-col items-start mt-8 w-full text-base leading-7 text-orange-200 max-md:max-w-full">
+                        <li class="gap-4 self-stretch">Custom framer website</li>
+                        <li class="gap-4 self-stretch mt-4">Modular web design systems</li>
+                        <li class="gap-4 self-stretch mt-4 w-full max-md:max-w-full">CMS integration</li>
+                    </ul>
+                    <div
+                        class="overflow-hidden absolute top-5 right-5 self-start p-2 text-xs leading-tight text-orange-200 uppercase rounded-sm border border-solid backdrop-blur-[15px] bg-orange-200 bg-opacity-10 border-orange-200 border-opacity-10">
+                        2 Weeks
+                    </div>
+                </article>
+                <div
+                    class="flex flex-col items-center w-10 text-sm tracking-widest leading-relaxed text-center text-orange-200 uppercase whitespace-nowrap max-md:hidden">
+                    <div class="flex flex-1 w-px bg-orange-200 bg-opacity-10 min-h-[182px]"></div>
+                    <div
+                        class="pr-2.5 pl-3 mt-4 w-10 h-10 border border-solid backdrop-blur-[15px] bg-orange-200 bg-opacity-10 border-orange-200 border-opacity-10 min-h-[40px] rounded-[500px] flex items-center">
+                        04
+                    </div>
+                    <div class="flex flex-1 mt-4 w-px bg-orange-200 bg-opacity-10 min-h-[181px]"></div>
+                </div>
+                <div class="flex flex-1 shrink basis-24 h-[435px] min-w-[240px] w-[600px] max-md:hidden"></div>
+            </div>
+            <div class="flex flex-wrap gap-10 w-full max-md:max-w-full">
+                <div class="flex flex-1 shrink basis-24 h-[493px] min-w-[240px] w-[600px] max-md:hidden"></div>
+                <div
+                    class="flex flex-col items-center w-10 text-sm tracking-widest leading-relaxed text-center text-orange-200 uppercase whitespace-nowrap max-md:hidden">
+                    <div class="flex flex-1 w-px bg-orange-200 bg-opacity-10 min-h-[211px]"></div>
+                    <div
+                        class="px-3 mt-4 w-10 h-10 border border-solid backdrop-blur-[15px] bg-orange-200 bg-opacity-10 border-orange-200 border-opacity-10 min-h-[40px] rounded-[500px] flex items-center">
+                        05
+                    </div>
+                    <div class="flex flex-1 mt-4 w-px bg-stone-950 min-h-[210px]"></div>
+                </div>
+                <article
+                    class="flex relative flex-col flex-1 shrink self-start p-12 rounded-sm border border-solid backdrop-blur-[15px] basis-0 bg-orange-200 bg-opacity-10 border-orange-200 border-opacity-10 min-w-[240px] max-md:px-5 max-md:max-w-full">
+                    <div class="flex z-0 flex-col w-full max-md:max-w-full">
+                        <dvi class="flex flex-col max-w-full uppercase w-[520px]">
+                            <h3 class="text-sm tracking-widest leading-relaxed text-orange-200 text-opacity-60">
+                                ready to go
+                            </h3>
+                            <h2
+                                class="mt-1 text-2xl font-light tracking-wider leading-tight text-orange-200 max-md:max-w-full">
+                                Website Onboarding
+                            </h2>
+                        </dvi>
+                        <p class="mt-4 text-base leading-7 text-orange-200 text-opacity-60 max-md:max-w-full">
+                            In a personal Framer workshop, I will show you how to make changes to your new website
+                            quickly and easily. Additionally, you will receive personalized Framer video tutorials that
+                            you can access at any time. Edit your Framer website without a complicated backend or the
+                            need for an additional programmer. It's as simple as that.
+                        </p>
+                    </div>
+                    <ul
+                        class="flex z-0 flex-col items-start mt-8 w-full text-base leading-7 text-orange-200 max-md:max-w-full">
+                        <li class="gap-4 self-stretch">Personal workshop</li>
+                        <li class="gap-4 self-stretch mt-4">Personalized video tutorials</li>
+                        <li class="gap-4 self-stretch mt-4 w-full max-md:max-w-full">
+                            Edit text and images directly on your website
+                        </li>
+                    </ul>
+                    <div
+                        class="overflow-hidden absolute top-5 right-5 self-start p-2 text-xs leading-tight text-orange-200 uppercase rounded-sm border border-solid backdrop-blur-[15px] bg-orange-200 bg-opacity-10 border-orange-200 border-opacity-10">
+                        2 hours
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="flex flex-col items-center pt-40 max-md:pt-24">
+        <div class="flex justify-between items-end max-w-full text-center rounded-2xl w-[1200px]">
+            <div class="flex flex-col flex-1 shrink items-center w-full basis-0 min-w-[240px] max-md:max-w-full">
+                <h2
+                    class="text-8xl italic font-light tracking-tighter text-orange-200 leading-[86px] w-[952px] max-md:max-w-full max-md:text-4xl max-md:leading-10">
+                    <span class="leading-[96px]">What my</span>
+                    <br />
+                    <span class="italic leading-[96px]">clients say</span>
+                </h2>
+                <p class="mt-4 text-lg leading-7 text-orange-200 text-opacity-60 w-[600px] max-md:max-w-full">
+                    See what my clients have to say about working with me and the results I helped them achieve.
+                </p>
+            </div>
+        </div>
+        <div class="flex flex-col mt-16 max-w-full w-[1200px] max-md:mt-10">
+            <div class="flex flex-wrap gap-8 items-start w-full max-md:max-w-full">
+                <div class="flex flex-col flex-1 shrink basis-0 min-w-[240px] max-md:max-w-full">
+                    <article
+                        class="flex flex-col justify-center p-12 w-full rounded-sm border border-solid backdrop-blur-[15px] bg-orange-200 bg-opacity-10 border-orange-200 border-opacity-10 max-md:px-5 max-md:max-w-full">
+                        <div class="flex flex-col w-full max-md:max-w-full">
+                            <img loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/cff1cdfb1329f6e5b9208b86650be659cf4e520bf37abff2031b5d97566f3769?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                                class="object-contain aspect-[1.5] w-[30px]" alt="" />
+                            <div class="flex flex-col mt-8 w-full max-md:max-w-full">
+                                <h3
+                                    class="text-2xl font-light tracking-wider leading-8 text-orange-200 max-md:max-w-full">
+                                    Amazing Results with Arik's Premium Web Design Services.
+                                </h3>
+                                <p class="mt-2 text-base leading-7 text-orange-200 text-opacity-60 max-md:max-w-full">
+                                    Arik is a top-notch web designer who created a stunning website for my business. He
+                                    was attentive to my needs and provided excellent customer service throughout the
+                                    entire process. I highly recommend his services.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap gap-4 items-center mt-8 w-full leading-relaxed max-md:max-w-full">
+                            <img loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/e991bfda5aa7259fe3c1cc9cc89428c4cea74d66a628b4e8fa0cdd32e7c67a99?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                                class="object-contain shrink-0 self-stretch my-auto aspect-square rounded-[500px] w-[60px]"
+                                alt="John Smith" />
+                            <div
+                                class="flex flex-col flex-1 shrink justify-center self-stretch my-auto basis-0 min-w-[240px]">
+                                <p class="text-sm tracking-widest text-orange-200 uppercase">John Smith</p>
+                                <p class="text-sm font-light text-orange-200 text-opacity-60">ABC Company</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article
+                        class="flex flex-col justify-center p-12 mt-8 w-full rounded-sm border border-solid backdrop-blur-[15px] bg-orange-200 bg-opacity-10 border-orange-200 border-opacity-10 max-md:px-5 max-md:max-w-full">
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/c4617700ca5db5ae176bdad67da08d153c876375bbe2a94ae3963f2bb401f24a?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                            class="object-contain max-w-full aspect-[4.67] w-[117px]" alt="" />
+                        <div class="flex flex-col mt-8 w-full max-md:max-w-full">
+                            <h3 class="text-2xl font-light tracking-wider leading-8 text-orange-200 max-md:max-w-full">
+                                Professional, Collaborative Web Design Experience with Arik.
+                            </h3>
+                            <p class="mt-2 text-base leading-7 text-orange-200 text-opacity-60 max-md:max-w-full">
+                                I had the pleasure of working with Arik on a website development project and was blown
+                                away by his expertise and professionalism. He made the process seamless and delivered a
+                                website that exceeded our expectations. I highly recommend Arik for all your web
+                                development needs.
+                            </p>
+                        </div>
+                        <div class="flex flex-wrap gap-4 items-center mt-8 w-full leading-relaxed max-md:max-w-full">
+                            <img loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/3f1e0c1cbd36fc131c1da43a0f97e4a0768b3e6d0e7ae32ef8b3fe57bb6d7aa7?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                                class="object-contain shrink-0 self-stretch my-auto aspect-square rounded-[500px] w-[60px]"
+                                alt="Karen Lee" />
+                            <div
+                                class="flex flex-col flex-1 shrink justify-center self-stretch my-auto basis-0 min-w-[240px]">
+                                <p class="text-sm tracking-widest text-orange-200 uppercase">Karen Lee</p>
+                                <p class="text-sm font-light text-orange-200 text-opacity-60">Redwood Technologies</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article
+                        class="flex flex-col justify-center p-12 mt-8 w-full rounded-sm border border-solid backdrop-blur-[15px] bg-orange-200 bg-opacity-10 border-orange-200 border-opacity-10 max-md:px-5 max-md:max-w-full">
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/8f8efd16ec83c5fdb006a4d2dabd6a8a58bf58e8508c7766a9b19b6b9e94da88?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                            class="object-contain aspect-[2.6] w-[52px]" alt="" />
+                        <div class="flex flex-col mt-8 w-full max-md:max-w-full">
+                            <h3 class="text-2xl font-light tracking-wider leading-8 text-orange-200 max-md:max-w-full">
+                                Web Design and Content Solutions: Stand Out from the Crowd.
+                            </h3>
+                            <p class="mt-2 text-base leading-7 text-orange-200 text-opacity-60 max-md:max-w-full">
+                                Arik's SEO services have helped my business improve its online presence and increase
+                                traffic to our website. He is knowledgeable, professional, and provides excellent
+                                results. I highly recommend him for all your SEO needs.
+                            </p>
+                        </div>
+                        <div class="flex flex-wrap gap-4 items-center mt-8 w-full leading-relaxed max-md:max-w-full">
+                            <img loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/2b58abf2f364a6591135adfb8b6fd2434fbcdc5d85e03da53a8ac75a777e4373?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                                class="object-contain shrink-0 self-stretch my-auto aspect-square rounded-[500px] w-[60px]"
+                                alt="Emily Davis" />
+                            <div
+                                class="flex flex-col flex-1 shrink justify-center self-stretch my-auto basis-0 min-w-[240px]">
+                                <p class="text-sm tracking-widest text-orange-200 uppercase">Emily Davis</p>
+                                <p class="text-sm font-light text-orange-200 text-opacity-60">Greenway Industries</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="flex flex-col flex-1 shrink basis-0 min-w-[240px] max-md:max-w-full">
+                    <article
+                        class="flex flex-col justify-center p-12 w-full rounded-sm border border-solid bg-orange-200 bg-opacity-10 border-orange-200 border-opacity-10 max-md:px-5 max-md:max-w-full">
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/6ac73fb32aae91c680efa04bb873421e89e76c71415f9394c2db35878bd386d1?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                            class="object-contain w-6 aspect-[1.2]" alt="" />
+                        <div class="flex flex-col mt-8 w-full max-md:max-w-full">
+                            <h3 class="text-2xl font-light tracking-wider leading-8 text-orange-200 max-md:max-w-full">
+                                Expert Webflow and SEO Services: Excellent Work, Great Results.
+                            </h3>
+                            <p class="mt-2 text-base leading-7 text-orange-200 text-opacity-60 max-md:max-w-full">
+                                Working with Arik on my website redesign was a fantastic experience. He was able to take
+                                my vision and turn it into a beautiful and functional website. His attention to detail
+                                and creative approach is unmatched. I couldn't be happier with the end result.
+                            </p>
+                        </div>
+                        <div class="flex flex-wrap gap-4 items-center mt-8 w-full leading-relaxed max-md:max-w-full">
+                            <img loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/f47d1996d8365db832edd2c9881b7f663562c06a65a1a58fdb32c46c1b6fefdb?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                                class="object-contain shrink-0 self-stretch my-auto aspect-square rounded-[500px] w-[60px]"
+                                alt="David Kim" />
+                            <div
+                                class="flex flex-col flex-1 shrink justify-center self-stretch my-auto basis-0 min-w-[240px]">
+                                <p class="text-sm tracking-widest text-orange-200 uppercase">David Kim</p>
+                                <p class="text-sm font-light text-orange-200 text-opacity-60">Design Inc.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article
+                        class="flex flex-col justify-center p-12 mt-8 w-full rounded-sm border border-solid bg-orange-200 bg-opacity-10 border-orange-200 border-opacity-10 max-md:px-5 max-md:max-w-full">
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/6cf776541388e2ed778d46f8db0226ef98441a8b117a9efe4ffc6e9fdc92934f?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                            class="object-contain max-w-full aspect-[3.77] w-[113px]" alt="" />
+                        <div class="flex flex-col mt-8 w-full max-md:max-w-full">
+                            <h3 class="text-2xl font-light tracking-wider leading-8 text-orange-200 max-md:max-w-full">
+                                Expertise in Web Design: Second to None with Arik.
+                            </h3>
+                            <p class="mt-2 text-base leading-7 text-orange-200 text-opacity-60 max-md:max-w-full">
+                                Arik is not only an exceptional web designer, but also a pleasure to work with. He took
+                                the time to understand my business and its unique needs, and created a website that
+                                perfectly represents my brand. I highly recommend Arik's services to anyone looking for
+                                a top-quality web designer.
+                            </p>
+                        </div>
+                        <div class="flex flex-wrap gap-4 items-center mt-8 w-full leading-relaxed max-md:max-w-full">
+                            <img loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/33d4ae6c1f957600c4ba0d29f18ac196c8abcb81a59c66f46b09f499d480c625?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                                class="object-contain shrink-0 self-stretch my-auto aspect-square rounded-[500px] w-[60px]"
+                                alt="Andrew Thompson" />
+                            <div
+                                class="flex flex-col flex-1 shrink justify-center self-stretch my-auto basis-0 min-w-[240px]">
+                                <p class="text-sm tracking-widest text-orange-200 uppercase">Andrew Thompson</p>
+                                <p class="text-sm font-light text-orange-200 text-opacity-60">Silverstone Corporation
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="flex flex-col mt-8 w-full rounded-sm max-md:max-w-full">
+                        <div
+                            class="flex flex-col justify-center p-12 w-full border border-solid bg-orange-200 bg-opacity-10 border-orange-200 border-opacity-10 max-md:px-5 max-md:max-w-full">
+                            <img loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/64cd22db94143844bab1003b786f1bf8d51ab20c8d729c11c64112d852a01256?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                                class="object-contain aspect-[3.95] w-[79px]" alt="" />
+                            <div class="flex flex-col mt-8 w-full max-md:max-w-full">
+                                <h3
+                                    class="text-2xl font-light tracking-wider leading-8 text-orange-200 max-md:max-w-full">
+                                    High-Quality Web Design: Exceptional Attention to Detail with Arik.
+                                </h3>
+                                <p class="mt-2 text-base leading-7 text-orange-200 text-opacity-60 max-md:max-w-full">
+                                    Arik's development services are top-notch. He is able to take complex ideas and turn
+                                    them into functional, user-friendly websites. His attention to detail and commitment
+                                    to customer satisfaction are unmatched. I highly recommend Arik for all your web
+                                    development needs.
+                                </p>
+                            </div>
+                            <div
+                                class="flex flex-wrap gap-4 items-center mt-8 w-full leading-relaxed max-md:max-w-full">
+                                <img loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/a29d42b96ea47e6aa6f9a14e6a92ef9658b965baf01f598b431abee01401b220?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                                    class="object-contain shrink-0 self-stretch my-auto aspect-square rounded-[500px] w-[60px]"
+                                    alt="Ryan Chen" />
+                                <div
+                                    class="flex flex-col flex-1 shrink justify-center self-stretch my-auto basis-0 min-w-[240px]">
+                                    <p class="text-sm tracking-widest text-orange-200 uppercase">Ryan Chen</p>
+                                    <p class="text-sm font-light text-orange-200 text-opacity-60">Golden Gate Solutions
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="flex flex-col justify-center">
+        <div class="flex overflow-hidden flex-col pt-7 pb-60 w-full max-md:pb-24 max-md:max-w-full">
+            <div class="w-full max-md:max-w-full">
+                <div class="flex gap-5 max-md:flex-col">
+                    <div class="flex flex-col w-[28%] max-md:ml-0 max-md:w-full">
+                        <h1
+                            class="z-10 self-stretch my-auto mr-0 text-6xl italic font-light tracking-tighter leading-none text-center text-orange-200 max-md:mt-10 max-md:max-w-full max-md:text-4xl">
+                            <span class="text-6xl leading-[56px]">Arik</span>
+                            <span class="text-6xl italic leading-[56px]">Andersson</span>
+                        </h1>
+                    </div>
+                    <div class="flex flex-col ml-5 w-2/5 max-md:ml-0 max-md:w-full">
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/6a15c4bd64a7fcc54884955bb062e62052e4c6ddd1429e410e8f905fd3fef1fd?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                            alt="Arik Andersson portrait"
+                            class="object-contain grow w-full bg-blend-lighten aspect-[1.14] max-md:max-w-full" />
+                    </div>
+                    <div class="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
+                        <h2
+                            class="my-auto text-6xl italic font-light tracking-tighter leading-none text-center text-orange-200 max-md:mt-10 max-md:max-w-full max-md:text-4xl">
+                            <span class="text-6xl leading-[56px]">Arik</span>
+                            <span class="text-6xl italic leading-[56px]">Andersson</span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="flex gap-10 items-start self-center mb-0 max-w-full w-[1200px] max-md:mb-2.5">
+                <div class="flex flex-wrap px-2 gap-10 items-start min-w-[240px] max-md:max-w-full">
+                    <h3
+                        class="text-5xl italic font-light text-orange-200 leading-[53px] w-[568px] max-md:mt-10 max-md:max-w-full max-md:text-3xl max-md:leading-[32px]">
+                        A website that leaves <br />
+                        <span class="italic">a lasting impression!</span>
+                    </h3>
+                    <div class="flex flex-col min-w-[240px] w-[568px] max-md:max-w-full">
+                        <p class="text-lg leading-7 text-orange-200 text-opacity-60 max-md:max-w-full">
+                            Hi, I'm Arik Andersson - a freelancer specializing in premium web design, development, and
+                            SEO services. I'm passionate about creating unique and effective solutions for my clients,
+                            and I bring a personal touch to every project. Let's work together to bring your vision to
+                            life!
+                        </p>
+                        <nav class="flex gap-2.5 items-start self-start mt-8">
+                            <a href="#"
+                                class="flex flex-col justify-center items-center px-3 border border-solid backdrop-blur-[15px] bg-orange-200 bg-opacity-10 border-orange-200 border-opacity-10 h-[46px] min-h-[46px] rounded-[500px] w-[46px]"
+                                aria-label="Social Media Link 1">
+                                <img loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/628d8bd56464c3917e062d135f14195a7eb123014b8fb8a5a1d1c1e80ae22d2e?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                                    alt="" class="object-contain w-5 aspect-square" />
+                            </a>
+                            <a href="#"
+                                class="flex flex-col justify-center items-center px-3 border border-solid backdrop-blur-[15px] bg-orange-200 bg-opacity-10 border-orange-200 border-opacity-10 h-[46px] min-h-[46px] rounded-[500px] w-[46px]"
+                                aria-label="Social Media Link 2">
+                                <img loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/5ffaf5d5b5c1fe8f641aee56cdcef812706551b72afd9fb2f81f887955fae558?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                                    alt="" class="object-contain w-5 aspect-square" />
+                            </a>
+                            <a href="#"
+                                class="flex flex-col justify-center items-center px-3 border border-solid backdrop-blur-[15px] bg-orange-200 bg-opacity-10 border-orange-200 border-opacity-10 h-[46px] min-h-[46px] rounded-[500px] w-[46px]"
+                                aria-label="Social Media Link 3">
+                                <img loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/9358535f066e59c93d82a2bf53d0ddde6ea445f3d833569a26e6927ad30a0c31?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                                    alt="" class="object-contain w-5 aspect-square" />
+                            </a>
+                            <a href="#"
+                                class="flex flex-col justify-center items-center px-3 border border-solid backdrop-blur-[15px] bg-orange-200 bg-opacity-10 border-orange-200 border-opacity-10 h-[46px] min-h-[46px] rounded-[500px] w-[46px]"
+                                aria-label="Social Media Link 4">
+                                <img loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/b1be60764e2c10d2ed6a49a8445f8a3e655c520446fbba84d251ea6010494e51?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                                    alt="" class="object-contain w-5 aspect-square" />
+                            </a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="flex overflow-hidden flex-col">
+        <div
+            class="flex flex-col w-full text-sm tracking-widest leading-relaxed text-orange-200 uppercase max-md:max-w-full">
+            <div class="flex w-full bg-orange-200 bg-opacity-10 min-h-[1px] max-md:max-w-full"></div>
+            <div
+                class="flex gap-8 items-start py-4 w-full rounded-sm bg-orange-200 bg-opacity-10 max-md:max-w-full whitespace-nowrap">
+                <span aria-hidden="true">+++</span>
+                <span>Let's talk</span>
+                <span aria-hidden="true">+++</span>
+                <span>Let's talk</span>
+                <span aria-hidden="true">+++</span>
+                <span>Let's talk</span>
+                <span aria-hidden="true">+++</span>
+                <span>Let's talk</span>
+                <span aria-hidden="true">+++</span>
+                <span>Let's talk</span>
+                <span aria-hidden="true">+++</span>
+                <span>Let's talk</span>
+                <span aria-hidden="true">+++</span>
+                <span>Let's talk</span>
+                <span aria-hidden="true">+++</span>
+                <span>Let's talk</span>
+                <span aria-hidden="true">+++</span>
+                <span>Let's talk</span>
+                <span aria-hidden="true">+++</span>
+                <span>Let's talk</span>
+                <span aria-hidden="true">+++</span>
+                <span>Let's talk</span>
+                <span aria-hidden="true">+++</span>
+                <span>Let's talk</span>
+                <span aria-hidden="true">+++</span>
+            </div>
+            <div class="flex w-full bg-orange-200 bg-opacity-10 min-h-[1px] max-md:max-w-full"></div>
+        </div>
+        <div
+            class="flex flex-col items-center px-12 py-40 w-full bg-orange-200 bg-opacity-10 max-md:px-5 max-md:py-24 max-md:max-w-full">
+            <div class="flex flex-col items-center text-orange-200 max-md:max-w-full">
+                <p class="text-sm tracking-widest leading-relaxed uppercase">Project in mind?</p>
+                <h2
+                    class="mt-2 text-9xl italic font-light tracking-tighter text-center leading-[144px] max-md:max-w-full max-md:text-4xl max-md:leading-10">
+                    <span class="text-6xl md:text-9xl leading-[60px] md:leading-[128px]">Let's make your</span>
+                    <br />
+                    <span class="text-6xl md:text-9xl leading-[60px] italic md:leading-[128px]">Website shine</span>
+                </h2>
+                <p
+                    class="mt-2 text-xl leading-9 text-center text-orange-200 text-opacity-60 w-[500px] max-md:max-w-full">
+                    Premium web design, webflow, and SEO services to help your business stand out.
+                </p>
+            </div>
+            <a href="#contact"
+                class="flex gap-2 justify-center items-center px-4 py-2.5 mt-8 text-sm tracking-widest leading-relaxed uppercase bg-orange-200 rounded-sm text-stone-950">
+                <span class="self-stretch my-auto">Get in touch</span>
+                <img loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/a4f1f348f127796211d2d48fbe9c8209434dfc05ac21ae936e29428e0c820a71?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                    class="object-contain shrink-0 self-stretch my-auto aspect-square w-[18px]" alt="" />
+            </a>
+        </div>
+    </section>
+    <footer class="flex flex-col justify-center items-center self-stretch px-10 py-10 bg-orange-200 bg-opacity-10">
+        <div class="flex flex-col max-w-full w-[1600px]">
+            <div class="flex flex-wrap gap-10 items-start w-full max-md:max-w-full">
+                <div
+                    class="flex flex-col justify-between items-start self-stretch rounded-2xl min-w-[240px] w-[460px] max-md:max-w-full">
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/19e5586cd8291800669ed6e087c851a94be5312e302a0335f737b5a97cdef523?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                        class="object-contain aspect-[2.64] w-[58px]" alt="Company logo" />
+                    <nav class="flex flex-col items-start mt-12 max-md:mt-10">
+                        <ul class="list-none p-0">
+                            <li class="flex gap-4 items-center self-stretch mb-4">
+                                <div
+                                    class="flex flex-col justify-center items-center self-stretch px-3 my-auto border border-solid backdrop-blur-[15px] bg-orange-200 bg-opacity-10 border-orange-200 border-opacity-10 h-[38px] min-h-[38px] rounded-[500px] w-[38px]">
+                                    <img loading="lazy"
+                                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/ee39dd76b5d8122e66f2162382ebaeed024619ae3e49116122d79b09001bb60b?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                                        class="object-contain w-4 aspect-square" alt="" />
+                                </div>
+                                <a href="#"
+                                    class="self-stretch my-auto text-sm tracking-widest leading-relaxed text-justify uppercase text-orange-200 text-opacity-60">Instagram</a>
+                            </li>
+                            <li class="flex gap-4 items-center mb-4">
+                                <div
+                                    class="flex flex-col justify-center items-center self-stretch px-3 my-auto border border-solid backdrop-blur-[15px] bg-orange-200 bg-opacity-10 border-orange-200 border-opacity-10 h-[38px] min-h-[38px] rounded-[500px] w-[38px]">
+                                    <img loading="lazy"
+                                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/e64b86bce7bf5f08b08753aa140b850a51ba55f38ea4491f03aeb302145778be?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                                        class="object-contain w-4 aspect-square" alt="" />
+                                </div>
+                                <a href="#"
+                                    class="self-stretch my-auto text-sm tracking-widest leading-relaxed text-justify uppercase text-orange-200 text-opacity-60">Twitter</a>
+                            </li>
+                            <li class="flex gap-4 items-center mb-4">
+                                <div
+                                    class="flex flex-col justify-center items-center self-stretch px-3 my-auto border border-solid backdrop-blur-[15px] bg-orange-200 bg-opacity-10 border-orange-200 border-opacity-10 h-[38px] min-h-[38px] rounded-[500px] w-[38px]">
+                                    <img loading="lazy"
+                                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/0db2ab484d18f53d401749818dca2c7ed32b66a9effe3a2cbcb7ef0425b3b9d0?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                                        class="object-contain w-4 aspect-square" alt="" />
+                                </div>
+                                <a href="#"
+                                    class="self-stretch my-auto text-sm tracking-widest leading-relaxed text-justify uppercase text-orange-200 text-opacity-60">Dribbble</a>
+                            </li>
+                            <li class="flex gap-4 items-center">
+                                <div
+                                    class="flex flex-col justify-center items-center self-stretch px-3 my-auto border border-solid backdrop-blur-[15px] bg-orange-200 bg-opacity-10 border-orange-200 border-opacity-10 h-[38px] min-h-[38px] rounded-[500px] w-[38px]">
+                                    <img loading="lazy"
+                                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/822f6ad07ff5bd538afd616c3a355ccc409237eb61fc4acb1e659358ac1fe671?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                                        class="object-contain w-4 aspect-square" alt="" />
+                                </div>
+                                <a href="#"
+                                    class="self-stretch my-auto text-sm tracking-widest leading-relaxed text-justify uppercase text-orange-200 text-opacity-60">Behance</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <nav
+                    class="flex flex-col flex-1 shrink text-sm tracking-widest leading-relaxed text-justify basis-0 min-w-[240px]">
+                    <h2 class="text-xl font-light tracking-wider leading-snug text-orange-200">Pages</h2>
+                    <ul
+                        class="flex flex-col mt-8 w-full uppercase whitespace-nowrap text-orange-200 text-opacity-60 list-none p-0">
+                        <li><a href="#" class="block mb-4">Home</a></li>
+                        <li><a href="#" class="block mb-4">Services</a></li>
+                        <li><a href="#" class="block mb-4">About</a></li>
+                        <li><a href="#" class="block">Contact</a></li>
+                    </ul>
+                    <a href="#"
+                        class="flex gap-2 items-center self-start px-4 py-2.5 mt-8 uppercase bg-orange-200 rounded-sm text-stone-950">
+                        <span class="self-stretch my-auto">More Templates</span>
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/a4f1f348f127796211d2d48fbe9c8209434dfc05ac21ae936e29428e0c820a71?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                            class="object-contain shrink-0 self-stretch my-auto aspect-square w-[18px]" alt="" />
+                    </a>
+                </nav>
+                <nav class="flex flex-col flex-1 shrink text-justify basis-0 min-w-[240px]">
+                    <h2 class="text-xl font-light tracking-wider leading-snug text-orange-200">CMS</h2>
+                    <ul
+                        class="flex flex-col mt-8 w-full text-sm tracking-widest leading-relaxed uppercase text-orange-200 text-opacity-60 list-none p-0">
+                        <li><a href="#" class="block mb-4">Work</a></li>
+                        <li><a href="#" class="block mb-4">Work Single</a></li>
+                        <li><a href="#" class="block mb-4">Blog</a></li>
+                        <li><a href="#" class="block">Blog Post</a></li>
+                    </ul>
+                </nav>
+                <nav class="flex flex-col flex-1 shrink text-justify basis-0 min-w-[240px]">
+                    <h2 class="text-xl font-light tracking-wider leading-snug text-orange-200">Utility Pages</h2>
+                    <ul
+                        class="flex flex-col mt-8 w-full text-sm tracking-widest leading-relaxed uppercase text-orange-200 text-opacity-60 list-none p-0">
+                        <li><a href="#" class="block mb-4">404 Error Page</a></li>
+                        <li><a href="#" class="block mb-4">Password Protected</a></li>
+                        <li><a href="#" class="block mb-4">Styleguide</a></li>
+                        <li><a href="#" class="block mb-4">Licensing</a></li>
+                        <li><a href="#" class="block">Changelog</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div
+                class="flex max-md:flex-wrap gap-10 items-center mt-20 w-full rounded-2xl max-md:mt-10 max-md:max-w-full">
+                <p
+                    class="grow shrink self-stretch my-auto text-xs tracking-wide leading-6 text-justify text-orange-200 text-opacity-60 w-[1375px] max-md:max-w-full">
+                    © 2022 Made by Pawel Gola. Powered by Framer.
+                </p>
+                <div class="flex gap-4 items-center self-stretch my-auto">
+                    <span
+                        class="self-stretch my-auto text-sm tracking-widest leading-relaxed text-justify text-orange-200 uppercase">To
+                        Top</span>
+                    <button
+                        class="flex flex-col justify-center items-center self-stretch px-3 my-auto border border-solid backdrop-blur-[15px] bg-orange-200 bg-opacity-10 border-orange-200 border-opacity-10 h-[46px] min-h-[46px] rounded-[500px] w-[46px]"
+                        aria-label="Scroll to top">
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/29c48dd18fc22ee6ee06421d417920508e4322de8c8f33beb009523471cbf5a8?placeholderIfAbsent=true&apiKey=c32b3133450e4cb2a38220a22821614d"
+                            class="object-contain w-5 aspect-square" alt="" />
+                    </button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8.4.5/swiper-bundle.min.js"></script>
+    <script type="module" src="./javascript.js"></script>
+</body>
+
+</html>
